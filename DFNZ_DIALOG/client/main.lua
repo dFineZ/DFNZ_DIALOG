@@ -57,15 +57,3 @@ function closeDialog()
     end
     
 end
-
--- RegisterCommand('testshell', function()
---     local enter = GetEntityCoords(cache.ped)
---     local shell = 'modernhotel_shell'
-
---     local shellObj = CreateObject(GetHashKey(shell), enter.x, enter.y, enter.z - 200.0, true, true, true)
---     SetEntityRotation(shellObj, 0.0, 0.0, 0.0, 0, true)
---     SetEntityAsMissionEntity(shellObj, true, true)
---     FreezeEntityPosition(shellObj, true)
-
---     SetEntityCoords(cache.ped, vec3(enter.x, enter.y, enter.z - 200.0))
--- end)
